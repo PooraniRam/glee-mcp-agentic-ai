@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "/Users/mahathi/.local/bin/uv",
+      "args": [
+        "run",
+        "--frozen",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "/Users/mahathi/Documents/Poorani/glee-mcp-agentic-ai/server/weather.py"
+      ]
+    }
+  }
+}

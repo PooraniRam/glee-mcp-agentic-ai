@@ -33,3 +33,14 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 15. Need to install the following packages:
         @modelcontextprotocol/inspector@0.18.0
         Ok to proceed? (y) y
+---------------------------------------------------
+16. MCP Inspector: uv run mcp dev server/weather.py
+17. Claude App : uv run mcp install server/weather.py
+18. Can we directly integrated with command line
+        for this approach we are using client
+19. client.py is needed to integrated with mcp server and do LLM integration
+20. We need one mere library: MCP-USE - https://github.com/mcp-use/mcp-use
+        MCP USE: open source way to connect any LLM to any MCP server and build custom agent that have tool access without using closed source or application clients
+21. terminal:> uv add mcp-use
+22. terminal:> uv add lanchain_groq (since we're using GROQ LLM)
+23. termanal:> uv add nest_asyncio
