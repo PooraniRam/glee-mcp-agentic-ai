@@ -19,8 +19,8 @@ uv run server.py
 async def main():
     # Connect to the server using SSE
     async with sse_client("http://localhost:8000/sse") as (read_stream, write_stream):
-        async with ClientSession(read_stream=read_stream)
-
+        #async with ClientSession(read_stream=read_stream)
+        print("sse event")
 
 
 
